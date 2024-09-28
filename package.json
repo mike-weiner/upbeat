@@ -1,7 +1,29 @@
 {
   "name": "upbeat",
   "version": "0.1.0",
-  "private": true,
+  "description": "A barebones web application with nothing but an upbeat health check.",
+  "keywords": [
+    "Kamal Example",
+    "Next.js Health Check App",
+    "Basic Health Check",
+    "JavaScript Health Check Web App",
+    "Health Check Web App"
+  ],
+  "homepage": "https://github.com/mike-weiner/upbeat",
+  "bugs": {
+    "url": "https://github.com/mike-weiner/upbeat",
+    "email": "michael.weiner@hey.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Michael Weiner",
+    "email": "michael.weiner@hey.com",
+    "url": "https://michaelweiner.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-weiner/upbeat.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,5 +40,9 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.13"
-  }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "private": true
 }
