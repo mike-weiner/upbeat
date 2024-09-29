@@ -20,7 +20,7 @@ bun dev
 
 ## Running as a Container
 
-This application is publicly available via `docker pull michaelweiner/upbeat`. If needed, the container image can be built and run locally by:
+This application is publicly available via `docker pull michaelweiner/upbeat:latest`. If needed, the container image can be built and run locally by:
 
 1. Build image via `docker build -t upbeat:dev .`.
 2. Start a container via `docker run -p 3000:3000 upbeat:dev`.
