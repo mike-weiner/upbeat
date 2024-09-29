@@ -27,7 +27,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "PORT=443 next start",
     "lint": "next lint"
   },
   "dependencies": {
