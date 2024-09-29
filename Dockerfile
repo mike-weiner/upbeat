@@ -21,6 +21,6 @@ COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
 
-EXPOSE 443
+EXPOSE 80
 
 CMD ["npm", "run", "start"]
