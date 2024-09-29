@@ -26,8 +26,8 @@ proxy:
   app_port: 3000
 
 ssh:
-  user: KAMAL_SSH_USERNAME
-  port: KAMAL_SSH_PORT
+  user: <%= ENV['KAMAL_SSH_USERNAME'] %>
+  port: <%= ENV['KAMAL_SSH_PORT'] %>
   keys_only: true
   keys: [ "~/.ssh/droplet" ]
 
