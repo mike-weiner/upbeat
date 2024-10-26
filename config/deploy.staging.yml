@@ -1,0 +1,4 @@
+proxy:
+  ssl: true
+  hosts: 
+    - up2.springcreek.io

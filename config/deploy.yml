@@ -4,11 +4,13 @@ image: michaelweiner/upbeat
 
 servers:
   web:
-    - 164.90.252.151
+    - 159.203.151.191
 
 proxy:
   ssl: true
-  host: up.springcreek.io
+  hosts: 
+    - up.springcreek.io
+  app_port: 3000
 
 registry:
   server: registry.hub.docker.com
@@ -21,9 +23,6 @@ builder:
   arch: amd64
   local: true
   dockerfile: Dockerfile
-
-proxy:
-  app_port: 3000
 
 ssh:
   user: <%= ENV['KAMAL_SSH_USERNAME'] %>
